@@ -17,13 +17,10 @@ public class Opdracht231A {
         
         StringBuilder username1 = new StringBuilder(); 
   
-        // append a string into StringBuilder input1 
         username1.append(input); 
   
-        // reverse StringBuilder input1 
         username1 = username1.reverse(); 
   
-        // print reversed String 
         System.out.println("Resultaat " + username1);
 		
 	}
